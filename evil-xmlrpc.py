@@ -1,4 +1,7 @@
-#xmlrpc brute forcer created by 0xapt
+#!/usr/bin/python3
+
+# evil-xmlrpc
+# created by ~ 0xApt_
 
 '''
 https://blog.sucuri.net/2019/05/xmlrpc-php-brute-force-tool.html
