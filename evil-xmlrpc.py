@@ -165,7 +165,7 @@ def send_data(x):
         
     else:
         print("[*] Content Length: %s" % (content_length))
-        if content_length != 356059:
+        if content_length != 356069:
             print("[*] Interesting.. Saving response..")
             fileName = "xml_rpc_response_interesting_" + str(content_length) + "_attempt_" + str(attempt)
             with open(fileName, 'w') as t:
