@@ -24,7 +24,7 @@ python3 evil-xmlrpc.py <passwordlist> <username> <https://www.examplesite.com>
 
 ```sh
 
-root@user:~ python3 main.py 100000-pass-wordlist.txt admin https://www.examplesite.com                                                                                                                      
+root@user:~ python3 evil-xmlrpc.py 100000-pass-wordlist.txt admin https://www.examplesite.com                                                                                                                      
 
                  ██  ▀██                        ▀██
   ▄▄▄▄  ▄▄▄▄ ▄▄▄ ▄▄▄   ██     ▄▄▄ ▄▄▄ ▄▄ ▄▄ ▄▄    ██  ▄▄▄ ▄▄  ▄▄▄ ▄▄▄    ▄▄▄▄
